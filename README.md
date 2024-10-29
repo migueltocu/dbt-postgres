@@ -21,8 +21,36 @@ source .venv/bin/activate
 
 ```python3 -m pip install dbt-core dbt-postgres```
 
-3. dbt init to create a new dbt project.
+3. Create profiles.yml file to connect dbt to postgres. 
+
+```
+mkdir ~/.dbt 
+
+vi ~/.dbt/profiles.yml
+```
+
+4. dbt init to create a new dbt project.
 
  ```dbt init jaffle_shop```
 
-4. Create profiles.yml file to connect dbt to postgres. 
+5. Delete the folder: jaffle_shop/models/example
+
+6. In dbt_project.yml, delete lines 35 and 36.
+
+7. Check connection
+
+```
+cd jaffle shop
+
+dbt run
+```
+
+8. Add csv files in seeds folder.
+
+9. Run seed to upload files to postgres
+
+ ```dbt seed```
+
+10. Verify the data is available in pgAdmin and delete CSV files from seeds folder.
+
+11. Start modeling. 
