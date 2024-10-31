@@ -6,9 +6,9 @@ jaffle_shop:
       type: postgres
       threads: 1
       host: localhost
-      port: 5432
-      user: "docker"
-      pass: "docker"
-      dbname: "raw"
+      port: 5433
+      user: "admin"
+      pass: "root"
+      dbname: "dbt"
       schema: dev
   target: dev

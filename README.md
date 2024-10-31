@@ -17,6 +17,14 @@ python3 -m venv .venv
 source .venv/bin/activate
 ```
 
+Windows:  
+
+```
+python -m venv .venv
+
+.venv\Scripts\activate
+```
+
 2. Then install dbt-core and the postgres adapter. 
 
 ```python3 -m pip install dbt-core dbt-postgres```
@@ -32,6 +40,8 @@ vi ~/.dbt/profiles.yml
 4. dbt init to create a new dbt project.
 
  ```dbt init jaffle_shop```
+
+ "The profile jaffle_shop already exists in /Users/...../profiles.yml. Continue and overwrite it? [y/N]:" --> n
 
 5. Delete the folder: jaffle_shop/models/example
 
