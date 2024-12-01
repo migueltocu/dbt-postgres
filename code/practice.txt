@@ -126,17 +126,3 @@ final as (
 )
 
 select * from final
-
---------- TESTS ------
-
----------------------------------------------------------------
-## Add generic test in stg_customers for column “customer_id”:
----------------------------------------------------------------
-
-  - name: stg_customers
-    columns: 
-      - name: customer_id
-        tests:
-          - unique
-          - not_null
-
