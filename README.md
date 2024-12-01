@@ -81,4 +81,6 @@ dbt test
 dbt test --select test_type:generic
 dbt test --select test_type:singular
 dbt test --select one_specific_model
+dbt docs generate
+dbt docs serve
 ```
