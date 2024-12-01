@@ -36,6 +36,12 @@ mkdir ~/.dbt
 
 vi ~/.dbt/profiles.yml
 ```
+(copy code)
+
+Windows:
+
+C:\Users\yourUser\
+Create folder: .dbt and add profiles.yml.
 
 4. dbt init to create a new dbt project.
 
@@ -63,4 +69,16 @@ dbt run
 
 10. Verify the data is available in pgAdmin and delete CSV files from seeds folder.
 
-11. Start modeling. 
+11. Start modeling.
+
+
+## Commands
+
+```
+dbt seed
+dbt run
+dbt test
+dbt test --select test_type:generic
+dbt test --select test_type:singular
+dbt test --select one_specific_model
+```
