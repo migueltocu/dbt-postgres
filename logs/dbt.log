@@ -1,0 +1,30 @@
+[0m19:32:04.021181 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000112BDA5D6A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000112BBC45090>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000112BEB6BED0>]}
+
+
+============================== 19:32:04.026028 | 9ec7fda5-1acc-4b1a-8c5b-6e44f09b142a ==============================
+[0m19:32:04.026028 [info ] [MainThread]: Running with dbt=1.9.2
+[0m19:32:04.027172 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': 'D:\\EDEM\\dbt-postgres', 'log_path': 'logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init jaffle_shop', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m19:32:04.028892 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+
+User config should be moved from the 'config' key in profiles.yml to the 'flags' key in dbt_project.yml.
+[0m19:32:04.029752 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': '9ec7fda5-1acc-4b1a-8c5b-6e44f09b142a', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000112BEB94FC0>]}
+[0m19:32:04.049441 [info ] [MainThread]: A project called jaffle_shop already exists here.
+[0m19:32:04.050817 [debug] [MainThread]: Command `dbt init` succeeded at 19:32:04.050581 after 0.17 seconds
+[0m19:32:04.051312 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000112BEA41AE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000112BEA41E10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000112BEC10B50>]}
+[0m19:32:04.051623 [debug] [MainThread]: Flushing usage events
+[0m19:32:04.595422 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m19:51:50.477596 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000211CC75D6A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000211CA965090>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000211CD86BED0>]}
+
+
+============================== 19:51:50.481811 | c8f698a0-c822-4ba7-be76-dcc473906fcd ==============================
+[0m19:51:50.481811 [info ] [MainThread]: Running with dbt=1.9.2
+[0m19:51:50.482940 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'D:\\EDEM\\dbt-postgres', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt init jaffle_shop', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m19:51:50.483312 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+
+User config should be moved from the 'config' key in profiles.yml to the 'flags' key in dbt_project.yml.
+[0m19:51:50.483896 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': 'c8f698a0-c822-4ba7-be76-dcc473906fcd', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000211CD894FC0>]}
+[0m19:51:50.503498 [info ] [MainThread]: A project called jaffle_shop already exists here.
+[0m19:51:50.504844 [debug] [MainThread]: Command `dbt init` succeeded at 19:51:50.504602 after 0.16 seconds
+[0m19:51:50.505430 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000211CD741AE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000211CD741E10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000211CD910B50>]}
+[0m19:51:50.505985 [debug] [MainThread]: Flushing usage events
+[0m19:51:50.968214 [debug] [MainThread]: An error was encountered while trying to flush usage events

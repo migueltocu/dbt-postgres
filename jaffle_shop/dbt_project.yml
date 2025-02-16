@@ -38,4 +38,4 @@ models:
 
 seeds: 
   jaffle_shop:
-    schema: data
+    +schema: data
